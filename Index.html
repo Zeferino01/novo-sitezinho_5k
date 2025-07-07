@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promoção Placard Mobile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #0a0a1a, #1a0000);
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background: #b30000;
+      border-radius: 30px;
+      max-width: 420px;
+      width: 100%;
+      padding: 25px 20px;
+      box-shadow: 0 0 30px #ff0000b3;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 900;
+      text-shadow: 0 0 10px #fff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-shadow: 0 0 7px #ffcfcf;
+      margin-bottom: 20px;
+    }
+
+    .bonus-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 35px;
+    }
+
+    .btn-criar {
+      background: linear-gradient(90deg, #ff0000, #ff5500);
+      border-radius: 60px;
+      padding: 24px 0;
+      font-size: 2rem;
+      font-weight: 900;
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      box-shadow: 0 0 30px #ff5555;
+      animation: pulse 2s infinite;
+      margin-bottom: 30px;
+    }
+
+    .btn-criar:hover {
+      background: linear-gradient(90deg, #ff4d4d, #ff0000);
+      box-shadow: 0 0 45px #ff8888;
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 30px #ff5555; }
+      50% { box-shadow: 0 0 45px #ff8888; }
+    }
+
+    .noticias {
+      background: rgba(255,255,255,0.08);
+      padding: 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #ffffff;
+      min-height: 52px;
+      margin-bottom: 30px;
+      user-select: none;
+      animation: fadeIn 4s infinite;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      10%, 90% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-10px); }
+    }
+
+    .compartilhar {
+      background: rgba(255,255,255,0.1);
+      border-radius: 25px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: white;
+    }
+
+    .compartilhar .whatsapp {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #25D366;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 800;
+      color: white;
+      box-shadow: 0 0 20px #25D366;
+      transition: 0.3s ease;
+    }
+
+    .compartilhar .whatsapp:hover {
+      box-shadow: 0 0 35px #25D366;
+      transform: scale(1.05);
+    }
+
+    .compartilhar .percentual {
+      font-size: 0.95rem;
+      color: #ffaaaa;
+    }
+
+    .compartilhar svg {
+      width: 28px;
+      height: 28px;
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 BÔNUS DE 5.000 MT!</h1>
+    <h2>Deposite a partir de <strong>100MT</strong> e ganhe automaticamente</h2>
+    <p class="bonus-text">🎯 Não perca esta chance de multiplicar os seus ganhos jogando no Aviator e mais!</p>
+
+    <a href="https://media1.placard.co.mz/redirect.aspx?pid=2204&bid=1690" target="_blank" class="btn-criar">
+      CRIAR CONTA AGORA 🚀
+    </a>
+
+    <div class="noticias" id="noticia">
+      Carlos acabou de se registrar e ganhou 5000MT de bônus + 30.000MT em prêmios! 🎉
+    </div>
+
+    <div class="compartilhar">
+      <div>👥 Partilhe com seus amigos e receba até <span class="percentual">+30% de bônus</span> extra!</div>
+      <a class="whatsapp" href="https://wa.me/?text=🔥%20Ganhe%20até%205.000MT%20de%20bônus%20no%20Placard!%20Registe-se%20aqui:%20https://media1.placard.co.mz/redirect.aspx?pid=2204&bid=1690" target="_blank">
+        <svg viewBox="0 0 32 32"><path d="M16 .002C7.164.002 0 7.163 0 15.997a15.9 15.9 0 0 0 2.326 8.322L.042 32l7.837-2.27a15.934 15.934 0 0 0 8.121 2.2h.001C24.837 31.93 32 24.767 32 15.998 32 7.163 24.837.002 16 .002zm0 29.336a13.317 13.317 0 0 1-6.77-1.857l-.485-.29-4.648 1.345 1.388-4.529-.316-.465A13.298 13.298 0 0 1 2.683 16c0-7.366 5.96-13.335 13.317-13.335 7.35 0 13.317 5.969 13.317 13.335 0 7.349-5.967 13.338-13.317 13.338zm7.353-9.936c-.406-.204-2.403-1.184-2.776-1.319-.374-.139-.647-.204-.92.205s-1.053 1.318-1.29 1.592c-.237.27-.475.305-.88.102-.406-.204-1.715-.63-3.27-2.005-1.21-1.081-2.024-2.416-2.26-2.822-.237-.406-.026-.626.178-.83.182-.18.406-.474.61-.711.204-.237.27-.406.407-.677.136-.27.068-.508-.034-.712-.102-.204-.92-2.22-1.26-3.041-.331-.796-.667-.684-.92-.684h-.792c-.271 0-.711.102-1.082.508-.373.406-1.42 1.388-1.42 3.384 0 1.996 1.453 3.927 1.653 4.195.204.271 2.861 4.382 6.938 6.145.97.417 1.726.665 2.316.85.973.31 1.86.266 2.56.162.78-.116 2.403-.98 2.743-1.925.339-.944.339-1.753.237-1.925-.102-.17-.373-.271-.78-.474z"/></svg>
+        Partilhar no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <script>
+    const nomes = ["Carlos", "Ana", "Pedro", "Joana", "Mateus", "Beatriz", "Ricardo", "Fátima"];
+    const noticia = document.getElementById("noticia");
+
+    function gerarNoticia() {
+      const nome = nomes[Math.floor(Math.random() * nomes.length)];
+      const bonus = Math.floor(Math.random() * 2001) + 3000;
+      const premios = Math.floor(Math.random() * 20001) + 10000;
+      noticia.textContent = `${nome} acabou de se registrar e ganhou ${bonus}MT de bônus + ${premios}MT em prêmios! 🎉`;
+    }
+
+    setInterval(gerarNoticia, 5000);
+  </script>
+</body>
+</html>
